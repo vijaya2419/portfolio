@@ -1,5 +1,5 @@
 {
-	"homepage": "https://vijaya2419.github.io/",
+	"homepage": "https://vijaya2419.github.io/portfolio",
 	"name": "portfolio",
 	"version": "0.1.0",
 	"private": true,
@@ -21,8 +21,8 @@
 		"web-vitals": "^1.0.1"
 	},
 	"scripts": {
-		"predeploy" : "npm run build",
-		"deploy" : "gh-pages -d build",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"start": "react-scripts --openssl-legacy-provider start",
 		"build": "yarn run react-scripts build",
 		"test": "react-scripts test",
